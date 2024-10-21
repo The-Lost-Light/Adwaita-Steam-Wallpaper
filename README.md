@@ -15,7 +15,7 @@ This is a personalization custom.css let **[Adwaita for Steam]** skin have a bac
 ### Windows
 1. Install [Python] (Remember to check "Add python.exe to PATH")
 2. Download the [Source code (zip)] and unzip
-3. Copy [install_windows.exe] to the folder and run it
+3. Copy [installer-windows.exe] to the folder and run it
 4. Replace the [custom.css] to the `C:\Program Files (x86)\steam\steamui\adwaita\custom\custom.css`
 5. Change \<imgage-file-name\> your image filename like `--image-path: url("background.png");`
 6. Copy the image you want to `C:\Program Files (x86)\steam\steamui\adwaita\custom`
@@ -47,7 +47,7 @@ body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0 {
 [Game]: screenshots/Game.png
 
 [custom.css]: custom.css
-[install_windows.exe]: https://github.com/?/?/releases/latest/download/install_windows.exe
+[installer-windows.exe]: https://github.com/The-Lost-Light/Adwaita-Steam-Wallpaper/releases/download/v1.0.0/installer-windows-v1.0.0.exe
 
 [Python]: https://www.python.org/downloads/
 [Adwaita for Steam]: https://github.com/tkashkin/Adwaita-for-Steam?tab=readme-ov-file
