@@ -21,7 +21,8 @@ This is a personalization custom.css let **[Adwaita for Steam]** skin have a bac
 6. Copy the image you want to `C:\Program Files (x86)\steam\steamui\adwaita\custom`
 
 ## Tweaks
-For Top bar opacity by `--top-bar-opacity` and the Library content opacity by `--library-opacity`
+For Top bar opacity by `--top-bar-opacity` and the Library content opacity by `--library-opacity`.
+
 You can also set the opacity using gradient, the preview image is using
 ```css
 /* Library */
@@ -36,11 +37,11 @@ body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0 {
 ```
 
 ## Thanks
-**[Adwaita for Steam]**: The Adwait skin
+**[Adwaita for Steam]**: The Steam Adwaita skin
 
 **[AdwSteamGtk]**: The skin installer for linux
 
-**[steam-GBC]**: Change background image
+**[steam-GBC]**: Change background image with [Millennium] framework.
 
 
 [Library]: screenshots/Library.png
@@ -55,3 +56,4 @@ body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0 {
 [instructions]: https://github.com/tkashkin/Adwaita-for-Steam?tab=readme-ov-file##windows-install
 [AdwSteamGtk]: https://github.com/Foldex/AdwSteamGtk
 [steam-GBC]: https://github.com/YCZ01111/steam-GBC
+[Millennium]: https://github.com/SteamClientHomebrew/Millennium
