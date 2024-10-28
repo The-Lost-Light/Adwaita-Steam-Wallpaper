@@ -36,14 +36,14 @@ body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0 {
 ```
 
 ## Thanks
-**[Adwaita for Steam]**: The Steam Adwaita skin
+**[Adwaita for Steam]**: The Steam Adwaita skin framework
 
-**[AdwSteamGtk]**: The skin installer for linux
+**[AdwSteamGtk]**: The skin installer for Linux
 
-**[steam-GBC]**: Change background image with [Millennium] framework.
+**[steam-GBC]**: Another method to change background image with [Millennium] framework.
 
 
-[正體中文]: README_tw.md
+[正體中文]: README_zh-tw.md
 
 [Library]: screenshots/Library.png
 [Game]: screenshots/Game.png
