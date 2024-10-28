@@ -1,3 +1,5 @@
+English [正體中文]
+---
 # Adwait for Steam with Background Image
 This is a personalization custom.css let **[Adwaita for Steam]** skin have a background image.
 
@@ -10,15 +12,12 @@ This is a personalization custom.css let **[Adwaita for Steam]** skin have a bac
 ### Linux
 1. Recommend using [AdwSteamGtk]
 2. Copy the [custom.css] to the Preferences/Custom CSS in AdwSteamGtk
-3. Change \<imgage-file-name\> your image filename like `--image-path: url("background.png");`
+3. Change \<imgage-file-name\> your image filename, like this `--image-path: url("background.png");`
 4. Copy the image you want to `~/.steam/steam/steamui/adwaita/custom`
 ### Windows
 1. Install [Python] (Remember to check "Add python.exe to PATH")
 2. Download the [Source code (zip)] and unzip
-3. Copy [installer-windows.exe] to the folder and run it
-4. Replace the [custom.css] to the `C:\Program Files (x86)\steam\steamui\adwaita\custom\custom.css`
-5. Change \<imgage-file-name\> your image filename like `--image-path: url("background.png");`
-6. Copy the image you want to `C:\Program Files (x86)\steam\steamui\adwaita\custom`
+3. Copy [installer-windows.exe] to the folder decompressed in step 2 and execute
 
 ## Tweaks
 For Top bar opacity by `--top-bar-opacity` and the Library content opacity by `--library-opacity`.
@@ -44,11 +43,13 @@ body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0 {
 **[steam-GBC]**: Change background image with [Millennium] framework.
 
 
+[正體中文]: README_tw.md
+
 [Library]: screenshots/Library.png
 [Game]: screenshots/Game.png
 
 [custom.css]: custom.css
-[installer-windows.exe]: https://github.com/The-Lost-Light/Adwaita-Steam-Wallpaper/releases/download/v1.0.0/installer-windows-v1.0.0.exe
+[installer-windows.exe]: https://github.com/The-Lost-Light/Adwaita-Steam-Wallpaper/releases/download/v1.1.0/installer-windows-v1.1.0.exe
 
 [Python]: https://www.python.org/downloads/
 [Adwaita for Steam]: https://github.com/tkashkin/Adwaita-for-Steam?tab=readme-ov-file
