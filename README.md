@@ -40,7 +40,7 @@ body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0 {
 
 **[AdwSteamGtk]**: The skin installer for Linux
 
-**[steam-GBC]**: Another method to change background image with [Millennium] framework.
+**[steam-GBC]**: Another method to change background image with [Millennium] framework
 
 
 [正體中文]: README_zh-tw.md

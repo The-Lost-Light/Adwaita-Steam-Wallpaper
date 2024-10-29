@@ -18,7 +18,7 @@
 3. 將 [installer-windows.exe] 複製到第2步解壓縮後的資料夾並執行
 
 ## 調整
-你可以透過修改 `--top-bar-opacity` 改變頂欄不透明度和修改 `--library-opacity` 改變收藏庫不透明度.
+你可以透過修改 `--top-bar-opacity` 改變頂欄不透明度和修改 `--library-opacity` 改變收藏庫不透明度。
 
 你也可以是用顏色漸變, 例如預覽圖是透過以下修改
 ```css
@@ -38,7 +38,7 @@ body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0 {
 
 **[AdwSteamGtk]**: Adwait for Steam 的 Linux 安裝程式
 
-**[steam-GBC]**: 另一種透過 [Millennium] 框架加入背景圖片的方法.
+**[steam-GBC]**: 另一種透過 [Millennium] 框架加入背景圖片的方法
 
 [Library]: screenshots/Library.png
 [Game]: screenshots/Game.png
