@@ -1,6 +1,6 @@
 /* Variable */
 :root {
-	--image-path: url("<imgage-file-name>");
+	--image-path: url("imgage-file-name");
 	--top-bar-opacity: 0.6;
 	--library-opacity: 0.3;
 }

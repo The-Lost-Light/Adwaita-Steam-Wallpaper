@@ -10,16 +10,21 @@ This is a personalization custom.css let **[Adwaita for Steam]** skin have a bac
 
 ## Install
 ### Linux
-1. Recommend using [AdwSteamGtk]
-2. Copy the [custom.css] to the Preferences/Custom CSS in AdwSteamGtk
-3. Change \<imgage-file-name\> your image filename, like this `--image-path: url("background.png");`
-4. Copy the image you want to `~/.steam/steam/steamui/adwaita/custom`
+1. Recommend install using [AdwSteamGtk]
+2. Run in terminal
+``` sh
+curl -LsSf https://raw.githubusercontent.com/The-Lost-Light/Adwaita-Steam-Wallpaper/refs/heads/main/install.sh | sh -s /path/to/image
+```
 ### Windows
 1. Install [Python] (Remember to check "Add python.exe to PATH")
 2. Download the [Source code (zip)] and unzip
 3. Copy [installer-windows.exe] to the folder decompressed in step 2 and execute
 
 ## Tweaks
+You can tweak [custom.css] in
+- Linux: `~/.steam/steam/steamui/adwaita/custom/custom.css`
+- Windows: `C:\Program Files (x86)\steam\steamui\adwaita\custom\custom.css`
+
 For Top bar opacity by `--top-bar-opacity` and the Library content opacity by `--library-opacity`.
 
 You can also set the opacity using gradient, the preview image is using
@@ -48,13 +53,13 @@ body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0 {
 [Library]: screenshots/Library.png
 [Game]: screenshots/Game.png
 
-[custom.css]: custom.css
+[Python]: https://www.python.org/downloads/
+[Source code (zip)]: https://github.com/tkashkin/Adwaita-for-Steam/releases/latest
 [installer-windows.exe]: https://github.com/The-Lost-Light/Adwaita-Steam-Wallpaper/releases/download/v1.1.0/installer-windows-v1.1.0.exe
 
-[Python]: https://www.python.org/downloads/
+[custom.css]: custom.css
+
 [Adwaita for Steam]: https://github.com/tkashkin/Adwaita-for-Steam?tab=readme-ov-file
-[Source code (zip)]: https://github.com/tkashkin/Adwaita-for-Steam/releases/latest
-[instructions]: https://github.com/tkashkin/Adwaita-for-Steam?tab=readme-ov-file##windows-install
 [AdwSteamGtk]: https://github.com/Foldex/AdwSteamGtk
 [steam-GBC]: https://github.com/YCZ01111/steam-GBC
 [Millennium]: https://github.com/SteamClientHomebrew/Millennium
