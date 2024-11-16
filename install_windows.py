@@ -25,7 +25,7 @@ file_types = [
 def fix_install(py_file):
 	with open(py_file, "r", encoding="utf-8") as file:
 		lines = file.readlines()
-	lines[203] = '\twith target_css.open(encoding="utf-8") as css_file:\n'
+	lines[289] = '\twith target_css.open(encoding="utf-8") as css_file:\n'
 	with open(py_file, "w", encoding="utf-8") as file:
 		file.writelines(lines)
 

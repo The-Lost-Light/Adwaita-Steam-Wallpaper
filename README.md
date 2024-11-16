@@ -55,7 +55,7 @@ body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0 {
 
 [Python]: https://www.python.org/downloads/
 [Source code (zip)]: https://github.com/tkashkin/Adwaita-for-Steam/releases/latest
-[installer-windows.exe]: https://github.com/The-Lost-Light/Adwaita-Steam-Wallpaper/releases/download/v1.1.0/installer-windows-v1.1.0.exe
+[installer-windows.exe]: https://github.com/The-Lost-Light/Adwaita-Steam-Wallpaper/releases/download/v1.1.1/installer-windows-v1.1.1.exe
 
 [custom.css]: custom.css
 
