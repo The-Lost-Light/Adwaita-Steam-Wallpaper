@@ -29,8 +29,9 @@ For Top bar opacity by `--top-bar-opacity` and the Library content opacity by `-
 
 You can also set the opacity using gradient, the preview image is using
 ```css
-/* Library */
-body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0 {
+/* Library, Download page */
+body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0,
+._2Dd4T78PcCTUVgOtDGFY5j {
 	background: linear-gradient(
 		to right,
 		rgba(0, 0, 0, 0.6),

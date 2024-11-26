@@ -15,8 +15,9 @@ body.DesktopUI div._3Z7VQ1IMk4E3HsHvrkLNgo {
 	background-color: rgba(0, 0, 0, var(--top-bar-opacity)) !important;
 }
 
-/* Library */
-body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0 {
+/* Library, Download page */
+body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0,
+._2Dd4T78PcCTUVgOtDGFY5j {
 	background-color: rgba(0, 0, 0, var(--library-opacity)) !important;
 }
 
@@ -48,4 +49,10 @@ body.DesktopUI
 /* Divider between sidebar and content */
 body.DesktopUI div._276E6ijBpjMA2_iTxNhhjc {
 	box-shadow: inset 1px 0 rgba(255, 255, 255, 0.2) !important;
+}
+
+/* Download list */
+body.DesktopUI div._1bq4x9pa4-9RLY-dXWUZTp,
+body.DesktopUI div._3KDkLoCR8OM8xfdQysKn9t {
+	background: transparent !important;
 }

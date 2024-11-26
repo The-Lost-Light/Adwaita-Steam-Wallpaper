@@ -27,8 +27,9 @@ curl -LsSf https://raw.githubusercontent.com/The-Lost-Light/Adwaita-Steam-Wallpa
 
 你也可以是用顏色漸變, 例如預覽圖是透過以下修改
 ```css
-/* Library */
-body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0 {
+/* Library, Download page */
+body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0,
+._2Dd4T78PcCTUVgOtDGFY5j {
 	background: linear-gradient(
 		to right,
 		rgba(0, 0, 0, 0.6),
