@@ -6,7 +6,7 @@ import requests
 
 custom_css_url = "https://raw.githubusercontent.com/The-Lost-Light/Adwaita-Steam-Wallpaper/refs/heads/main/custom.css"
 
-color_themes = ["adwaita", "breeze", "catppuccin-frappe", "catppuccin-macchiato", "catppuccin-mocha", "dracula", "gruvbox", "kate", "metro", "nord", "one-pro", "pop", "tokyo-night", "tomorrow-night", "vapor", "vgui2", "yaru"]
+color_themes = ["adwaita", "adwaita-gray", "breeze", "canta", "catppuccin-frappe", "catppuccin-macchiato", "catppuccin-mocha", "dracula", "everforest", "gruvbox", "kate", "metro", "nord", "oled", "one-pro", "pop", "rose-pine", "tokyo-night", "tomorrow-night", "vapor", "vgui2", "yaru"]
 
 file_types = [
 	("All supported image formats", "*.apng *.bmp *.gif *.ico *.cur *.jpg *.jpeg *.jfif *.pjpeg *.pjp *.png *.svg *.tif *.tiff *.webp"),
@@ -25,7 +25,7 @@ file_types = [
 def fix_install(py_file):
 	with open(py_file, "r", encoding="utf-8") as file:
 		lines = file.readlines()
-	lines[289] = '\twith target_css.open(encoding="utf-8") as css_file:\n'
+	lines[242] = '\twith target_css.open(encoding="utf-8") as css_file:\n'
 	with open(py_file, "w", encoding="utf-8") as file:
 		file.writelines(lines)
 
