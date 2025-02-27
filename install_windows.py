@@ -22,14 +22,6 @@ file_types = [
 ]
 
 
-def fix_install(py_file):
-	with open(py_file, "r", encoding="utf-8") as file:
-		lines = file.readlines()
-	lines[242] = '\twith target_css.open(encoding="utf-8") as css_file:\n'
-	with open(py_file, "w", encoding="utf-8") as file:
-		file.writelines(lines)
-
-
 def get_choose(prompt, options=None):
 	if options:
 		for index, choice in enumerate(options, start=1):
@@ -111,7 +103,6 @@ def uninstall():
 if __name__ == "__main__":
 	operate =  get_choose("Choose an operate:", ["Install", "Uninstall"])
 	if operate == "1":
-		fix_install("install.py")
 		install_adwaita()
 	elif operate == "2":
 		uninstall()
