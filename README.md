@@ -1,4 +1,5 @@
-English [正體中文]
+English [繁體中文]
+
 ---
 # Adwait for Steam with Background Image
 This is a personalization custom.css let **[Adwaita for Steam]** skin have a background image.
@@ -18,7 +19,7 @@ curl -LsSf https://raw.githubusercontent.com/The-Lost-Light/Adwaita-Steam-Wallpa
 ### Windows
 1. Install [Python] (Remember to check "Add python.exe to PATH")
 2. Download the [Source code (zip)] and unzip
-3. Copy [installer-windows.exe] to the folder decompressed in step 2 and execute
+3. Download and copy [installer-windows.exe] to the folder decompressed in step 2 and execute
 
 ## Tweaks
 You can tweak [custom.css] in
@@ -49,14 +50,14 @@ body.DesktopUI div._3xRRJfD2xy95i9NhJxLTp0,
 **[steam-GBC]**: Another method to change background image with [Millennium] framework
 
 
-[正體中文]: README_zh-tw.md
+[繁體中文]: README_zh-tw.md
 
 [Library]: screenshots/Library.png
 [Game]: screenshots/Game.png
 
 [Python]: https://www.python.org/downloads/
 [Source code (zip)]: https://github.com/tkashkin/Adwaita-for-Steam/releases/latest
-[installer-windows.exe]: https://github.com/The-Lost-Light/Adwaita-Steam-Wallpaper/releases/download/v1.1.1/installer-windows-v1.1.1.exe
+[installer-windows.exe]: https://github.com/The-Lost-Light/Adwaita-Steam-Wallpaper/releases/latest
 
 [custom.css]: custom.css
 
